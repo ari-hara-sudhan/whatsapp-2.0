@@ -75,7 +75,16 @@ border:1px solid whitesmoke;
 `;
 
 const Container=styled.div`
+flex:0.45;
+border-right:1px solid whitesmoke;
+height:100vh;
+max-width:350px;
+min-width:300px;
+overflow-y:scroll;
 
+::-webkit-scrollbar{
+    display:none;
+}
 
 `;
 const UserAvatar=styled(Avatar)`

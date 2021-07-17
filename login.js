@@ -23,14 +23,6 @@ function Login() {
 export default Login
 
 
-const Container = styled.div`
-background-color:whitesmoke;
-display:grid;
-place-items:center;
-height:100vh;
-
-`
-
 const LoginContainer = styled.div`
 display:flex;
 padding:100px;
@@ -46,4 +38,12 @@ height:200px;
 width:200px;
 object-fit:contain;
 margin-bottom:50px;
+`
+
+const Container = styled.div`
+background-color:whitesmoke;
+display:grid;
+place-items:center;
+height:100vh;
+
 `

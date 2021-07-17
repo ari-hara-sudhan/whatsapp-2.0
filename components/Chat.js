@@ -13,8 +13,13 @@ function Chat({id,users}) {
 
     const receipent =receipentSnapshot?.docs?.[0]?.data();
 
+
+    const enterChat=()=>{
+        router.push(`/chat/${id}`)
+    }
+
     return (
-        <Container>
+        <Container onClick={enterChat}>
             {receipent ?(
                      <UserAvatar src={receipent?.photoURL}  />
             ):(
